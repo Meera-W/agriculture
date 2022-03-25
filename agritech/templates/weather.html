@@ -6,10 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather Forecast</title>
-    <link rel="stylesheet" href="weather.css">
+    <!-- <link rel="stylesheet" href="weather.css"> -->
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='weather.css') }}">
+    <!-- <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='weather.css') }}"> -->
+    <script src="{{ url_for('static',filename='script.js') }}"></script>
+
 </head>
 
-<body>
+<body style="background-color:#294e47;">
+    <!-- <div class="weatherr"> -->
     <div class="search_container">
         <div class="search_box">
             <input type="text" id="search-input" placeholder="Enter City">
@@ -49,19 +54,22 @@
             </div>
             <div class="weather-items">
                 <div class="humidity">
-                    <img src="../assets/images_weather/humidity-logo.jpg" alt="icon">
+                    <!-- <img src="../assets/images_weather/humidity-logo.jpg" alt="icon"> -->
+                    <img src="{{url_for('static', filename='assets/images_weather/humidity-logo.jpg')}} " loading="lazy" alt="icon">
                     <p>Humidity (%)</p>
                     <hr class="sep">
                     <div class="value" id="humidity">24</div>
                 </div>
                 <div class="humidity">
-                    <img src="../assets/images_weather/pressure-logo.jpg" alt="icon">
+                    <!-- <img src="../assets/images_weather/pressure-logo.jpg" alt="icon"> -->
+                    <img src="{{url_for('static', filename='assets/images_weather/pressure-logo.jpg')}} " loading="lazy" alt="icon">
                     <p>Air Pressure (mb)</p>
                     <hr class="sep">
                     <div class="value" id="pressure">1000</div>
                 </div>
                 <div class="humidity">
-                    <img src="../assets/images_weather/wind-speed.jpg" alt="icon">
+                    <!-- <img src="../assets/images_weather/wind-speed.jpg" alt="icon"> -->
+                    <img src="{{url_for('static', filename='assets/images_weather/wind-speed.jpg')}} " loading="lazy" alt="icon">
                     <p>Wind Speed (km/hr)</p>
                     <hr class="sep">
                     <div class="value" id="wind-speed">54</div>
@@ -71,24 +79,28 @@
                 <div class="sun">
                     <p>Sunrise</p>
                     <div class="time">
-                        <img src="../assets/images_weather/sunrise.png" alt="">
+                        <!-- <img src="../assets/images_weather/sunrise.png" alt=""> -->
+                        <img src="{{url_for('static', filename='assets/images_weather/sunrise.png')}} " loading="lazy" alt="icon">
                         <p id="sunrise"> 6:30 <span class="am-pm">PM</span></p>
                     </div>
                     <p>Sunset</p>
                     <div class="time">
-                        <img src="../assets/images_weather/sunset.png" alt="">
+                        <!-- <img src="../assets/images_weather/sunset.png" alt=""> -->
+                        <img src="{{url_for('static', filename='assets/images_weather/sunset.png')}} " loading="lazy" alt="icon">
                         <p id="sunset">6:30 <span class="am-pm">PM</span></p>
                     </div>
                 </div>
                 <div class="moon">
                     <p>Moonrise</p>
                     <div class="time">
-                        <img src="../assets/images_weather/moonrise.png" alt="">
+                        <!-- <img src="../assets/images_weather/moonrise.png" alt=""> -->
+                        <img src="{{url_for('static', filename='assets/images_weather/moonrise.png')}} " loading="lazy" alt="icon">
                         <p id="moonrise"> 6:30 <span class="am-pm">PM</span></p>
                     </div>
                     <p>Moonset</p>
                     <div class="time">
-                        <img src="../assets/images_weather/moonset.png" alt="">
+                        <!-- <img src="../assets/images_weather/moonset.png" alt=""> -->
+                        <img src="{{url_for('static', filename='assets/images_weather/moonset.png')}} " loading="lazy" alt="icon">
                         <p id="moonset">6:30 <span class="am-pm">PM</span></p>
                     </div>
                 </div>
@@ -201,8 +213,11 @@
             </div>
         </div>
     </div>
+    <!-- </div> -->
+
 </body>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js" integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<script src="script.js"></script>
+<!-- <script src="script.js"></script> -->
+
 
 </html>
