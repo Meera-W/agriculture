@@ -3,7 +3,7 @@
 ### Team name: Geeks6Geeks
 
 ## Team members
-* Samina Attari - Email
+* Samina Attari - sameenaattari7860@gmail.com
 * Prerna Jagesia - pkjagesia@gmail.com
 * Meera Wadher - wadher.meera@gmail.com
 * Rutuja Kolte - kolterutuja1@gmail.com
