@@ -1,0 +1,37 @@
+{% extends 'base.html' %} 
+{% block body %}
+<form action="/add_equipment" method="POST" enctype="multipart/form-data">
+  <div class="input-field">
+    <input id="eqname" name="eqname" type="text" class="validate" required />
+    <label for="eqname" class="active">Equipment Name</label>
+  </div>
+  <div class="input-field">
+    <input
+      id="location"
+      name="location"
+      type="text"
+      class="validate"
+      required
+    />
+    <label for="location" class="active">Location</label>
+  </div>
+  <div class="input-field">
+    <input id="price" name="price" type="text" class="validate" required />
+    <label for="price" class="active">Price</label>
+  </div>
+  <div class="input-field">
+    <input id="contact" name="contact" type="text" class="validate" required />
+    <label for="contact" class="active">Contact</label>
+  </div>
+  <div class="input-field">
+    <input id="qty" name="qty" type="number" class="validate" value=1 required />
+    <label for="qty" class="active">Quantity</label>
+  </div>
+  <label for="file" class="active">Image</label>
+  <input id="file" name="upload" type="file" required />
+
+  <button class="btn" style="margin-bottom: 10px" type="submit">
+    Add Equipment
+  </button>
+</form>
+{% endblock %}

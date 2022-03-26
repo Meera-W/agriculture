@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Agventure</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container">
+        <h1 class="text-center display-4" style="margin: 100px 0;" data-aos="fade-up" data-aos-duration="1000">EQUIPMENTS FOR RENT</h1>
+        <div class="row" data-aos="fade-up" data-aos-duration="1000"> 
+            {% for item in equipments %}
+              {% set imageUrl = storage.child('equipments/'+ item.filename).get_url(None) %}
+              {% set user = User.query.filter_by(id=item.user_id).first() %}
+              {% set id = item.id %}
+                <div class="col-md-6 col-xl-4">
+                    <div class="card mx-auto mb-4">
+                        <div class="wrapper-img">
+                            <img src="{{imageUrl}}" alt="Equipment image" class="card-img-top rounded" 
+                            style="max-height: 310px;">
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title"> {{item.eqname}} </h4>
+                            <p class="card-text text-muted">
+                                OWNER : {{user.username}} <br>
+                                PRICE PER DAY: {{item.price}} <br>
+                                LOCATION: {{item.location}} <br>
+                                CONTACT : {{item.contact}}<br>
+                                {% if item.qty >= 1 %}
+                                  QUANTITY: {{item.qty}}<br>
+                                {% else %}
+                                  NOT IN STOCK
+                                {% endif %}
+                            </p>
+                            <div class="card-footer text-end">
+                                {% if item.qty >= 1 %}
+                                  <a href="{{url_for('rent',id=id)}}" class="btn btn-primary">RENT</a>
+                                {% else %}
+                                  <a href="" class="btn btn-primary disabled"> NOT IN STOCK</a>                                
+                                {% endif %}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+    </div>
+  </body>
+</html>
