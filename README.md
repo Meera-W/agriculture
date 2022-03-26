@@ -55,6 +55,11 @@ The impact of climate change in India, most of the agricultural crops are being 
 
 ## Screenshots
 
-![](https://img.freepik.com/free-photo/blue-purple-technology-circuit_73426-205.jpg "Here is a screenshot")
 
-![](https://drive.google.com/file/d/1Nq3OmJCqKqUC1fpLGmKgwaiAfGswioR0/view?usp=sharing "Here is a screenshot")
+## CROP PREDICTION
+![](https://i.postimg.cc/4ds90Sdc/crop-unpreedicted.png "Here is a screenshot")
+![](https://i.postimg.cc/28MBY6yr/crop.png "Here is a screenshot")
+
+
+## CHATBOT
+![](https://i.postimg.cc/Hxzy19ch/chatbot.png "Here is a screenshot")
