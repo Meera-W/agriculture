@@ -60,6 +60,17 @@ The impact of climate change in India, most of the agricultural crops are being 
 ![](https://i.postimg.cc/4ds90Sdc/crop-unpreedicted.png "Here is a screenshot")
 ![](https://i.postimg.cc/28MBY6yr/crop.png "Here is a screenshot")
 
+## NEWFEED
+![](https://i.postimg.cc/HsqjKhvL/news-feed.png "Here is a screenshot")
 
 ## CHATBOT
 ![](https://i.postimg.cc/Hxzy19ch/chatbot.png "Here is a screenshot")
+
+## WEATHER FORECASTING
+![](https://i.postimg.cc/FHSkH4kc/weather-forecast.png "Here is a screenshot")
+![](https://i.postimg.cc/L40JkXzL/weather-forecast-2.png "Here is a screenshot")
+
+## PLANT DISEASE DETECTION
+![](https://i.postimg.cc/D0Wyprqs/disease-detection.png "Here is a screenshot")
+![](https://i.postimg.cc/0NfQz2k6/disease-detection-output.png "Here is a screenshot")
+
