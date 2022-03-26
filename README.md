@@ -4,10 +4,10 @@
 
 ## Team members
 * Samina Attari - Email
-* Prerna Jagesia - Email
-* Meera Wadher - Email
-* Rutuja Kolte - Email
-* Navya Sharma - Email
+* Prerna Jagesia - pkjagesia@gmail.com
+* Meera Wadher - wadher.meera@gmail.com
+* Rutuja Kolte - kolterutuja1@gmail.com
+* Navya Sharma - navyasan2804@gmail.com
 * Reshmika Nambiar - reshmikasnambiar@gmail.com
 
 
@@ -48,9 +48,11 @@ The impact of climate change in India, most of the agricultural crops are being 
 
 
 ## Future scope
->Mention ways in which the project can be improved and built upon in the future.
+* Plant disease dataset can be trained on a bigger dataset which contains parts of the plants other than just single leaves. Data augmentation can also be performed.
+* We can increase the accuracy of the chatbot.
+* We plan to improve the UI in the future.
+* Converting the website into a mobile app.
 
 ## Screenshots
-Add a few screenshots for parts of the project completed till now to give the viewer a quick idea of what your project looks like. After all, a picture speaks a thousand words.
 
 ![](https://img.freepik.com/free-photo/blue-purple-technology-circuit_73426-205.jpg "Here is a screenshot")
