@@ -61,7 +61,7 @@ The impact of climate change in India, most of the agricultural crops are being 
 ## RENTING FARMING EQUIPMENT
 
 # LOGIN PAGE
-![](https://i.postimg.cc/n929pF5m/RENT0.png "Here is a screenshot")
+![](https://i.postimg.cc/F15yb1VT/RENT0.png "Here is a screenshot")
 
 # RENTING EQUIPMENT ECOMMERCE PAGE
 
