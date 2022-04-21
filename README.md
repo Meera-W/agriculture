@@ -54,7 +54,18 @@ The impact of climate change in India, most of the agricultural crops are being 
 * Converting the website into a mobile app.
 
 ## Screenshots
+
+## FEATURES
+![](https://i.postimg.cc/PNQSPmnW/FEATURES.png "Here is a screenshot")
+
 ## RENTING FARMING EQUIPMENT
+
+# LOGIN PAGE
+![](https://i.postimg.cc/n929pF5m/RENT0.png "Here is a screenshot")
+
+# RENTING EQUIPMENT ECOMMERCE PAGE
+
+![](https://i.postimg.cc/MXSs69NZ/RENT.png "Here is a screenshot")
 
 ## CROP PREDICTION
 ![](https://i.postimg.cc/4ds90Sdc/crop-unpreedicted.png "Here is a screenshot")
